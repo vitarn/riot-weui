@@ -1,20 +1,29 @@
 {
+  "name": "riot-weui",
+  "version": "0.1.0",
   "author": "colder",
-  "babel": {
-    "ignore": [
-      "**/node_modules/**"
-    ],
-    "plugins": [
-      "transform-runtime",
-      "external-helpers-2"
-    ],
-    "presets": [
-      "es2015-riot",
-      "stage-0"
-    ]
-  },
-  "dependencies": {},
   "description": "weui for riot",
+  "license": "MIT",
+  "keywords": [
+    "mobile",
+    "ui",
+    "framework",
+    "weui",
+    "riot"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitarn/riot-weui.git"
+  },
+  "homepage": "https://github.com/vitarn/riot-weui",
+  "bugs": {
+    "url": "https://github.com/vitarn/riot-weui/issues"
+  },
+  "main": "index.js",
+  "files": [
+    "./lib"
+  ],
+  "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.3.26",
     "babel-plugin-external-helpers-2": "^6.3.13",
@@ -36,29 +45,23 @@
     "webpack-dev-server": "^1.14.0",
     "weui": "^0.2.3"
   },
-  "keywords": [
-    "mobile",
-    "ui",
-    "framework",
-    "weui",
-    "riot"
-  ],
-  "bugs": {
-    "url": "https://github.com/vitarn/riot-weui/issues"
-  },
-  "homepage": "https://github.com/vitarn/react-weui",
-  "license": "MIT",
-  "main": "index.js",
-  "name": "riot-weui",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vitarn/riot-weui.git"
-  },
   "scripts": {
     "build": "NODE_ENV=production webpack",
     "prepublish": "riot src lib --compact --colors",
     "start": "webpack-dev-server --progress --colors --inline --content-base example",
     "test": "mocha"
   },
-  "version": "0.1.0"
+  "babel": {
+    "ignore": [
+      "**/node_modules/**"
+    ],
+    "plugins": [
+      "transform-runtime",
+      "external-helpers-2"
+    ],
+    "presets": [
+      "es2015-riot",
+      "stage-0"
+    ]
+  }
 }
