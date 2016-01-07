@@ -55,8 +55,9 @@
     "url": "git+https://github.com/vitarn/riot-weui.git"
   },
   "scripts": {
+    "build": "NODE_ENV=production webpack",
+    "prepublish": "riot src lib --compact --colors",
     "start": "webpack-dev-server --progress --colors --inline --content-base example",
-    "build": "riot src lib --compact --colors",
     "test": "mocha"
   },
   "version": "0.1.0"
