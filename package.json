@@ -1,6 +1,6 @@
 {
   "name": "riot-weui",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "colder",
   "description": "weui for riot",
   "license": "MIT",
@@ -21,7 +21,7 @@
   },
   "main": "index.js",
   "files": [
-    "./lib"
+    "lib"
   ],
   "dependencies": {},
   "devDependencies": {
