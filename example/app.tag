@@ -1,8 +1,4 @@
 <app>
-    <article>
-        <h2>Article title</h2>
-    </article>
-
     <button class="weui_btn weui_btn_primary" onclick={ openActionSheet }>打开 Action Sheet</button>
     <weui-action-sheet show={ showActionSheet } onclose={ closeActionSheet }>
         <weui-action-sheet-cell onclick={ parent.clickActionSheetMenu0 }>
