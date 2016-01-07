@@ -27,4 +27,4 @@ build/Release
 node_modules
 
 # Webpack build
-# example/bundle.js
+example/bundle.js
