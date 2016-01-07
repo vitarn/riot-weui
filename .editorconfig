@@ -5,11 +5,11 @@ root = true
 trim_trailing_whitespace = true
 insert_final_newline = true
 
-[*.{js,json,jshintrc,jscsrc}]
+[*.{js,json}]
 indent_style = space
 indent_size = 2
 
-[*.{html,xml,css,less}]
+[*.{html,tag,css,less}]
 indent_style = space
 indent_size = 4
 

@@ -25,10 +25,15 @@
     "babel-loader": "^6.2.0",
     "babel-preset-es2015-riot": "^1.0.1",
     "classnames": "^2.2.1",
+    "css-loader": "^0.23.1",
+    "less": "^2.5.3",
+    "less-loader": "^2.2.2",
     "mocha": "^2.3.4",
+    "open-browser-webpack-plugin": "^0.0.2",
     "riot": "^2.3.12",
-    "riotjs-loader": "^1.2.0",
+    "style-loader": "^0.13.0",
     "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0",
     "weui": "^0.2.3"
   },
   "keywords": [
@@ -43,14 +48,15 @@
   },
   "homepage": "https://github.com/vitarn/react-weui",
   "license": "MIT",
-  "main": "./lib",
+  "main": "index.js",
   "name": "riot-weui",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vitarn/riot-weui.git"
   },
   "scripts": {
-    "build": "NODE_ENV=production webpack --progress",
+    "start": "webpack-dev-server --progress --colors --inline --content-base example",
+    "build": "riot src lib --compact --colors",
     "test": "mocha"
   },
   "version": "0.1.0"
