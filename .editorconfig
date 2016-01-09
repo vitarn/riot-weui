@@ -9,7 +9,7 @@ insert_final_newline = true
 indent_style = space
 indent_size = 2
 
-[*.{html,tag,css,less}]
+[*.{html,tag,css,less,md}]
 indent_style = space
 indent_size = 4
 
