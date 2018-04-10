@@ -1,4 +1,6 @@
 # riot-weui
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/vitarn/riot-weui.svg)](https://greenkeeper.io/)
 weui for riot
 
 ## Action Sheet
